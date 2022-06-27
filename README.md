@@ -1,1 +1,1 @@
-# alx-higher_level_programming
+This repo contains Projects of Higher level programming at ALX School
