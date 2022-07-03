@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# File - 3-print_reversed_list_integer.py
+# File : 3-print_reversed_list_integer.py
 # Print a list of integers... in reverse!
-# Auth - Yitagesu K Areda
+# Auth : Yitagesu K Areda
 
 
 def print_reversed_list_integer(my_list=[]):

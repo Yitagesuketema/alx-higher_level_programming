@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# File - 5-no_c.py
+# File : 5-no_c.py
 # Can you C me now?
-# Auth - Yitagesu K Areda
+# Auth : Yitagesu K Areda
 
 
 def no_c(my_string):

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# File - 4-new_in_list.py
+# File : 4-new_in_list.py
 # Replace in a copy
-# Auth - Yitagesu K Areda
+# Auth : Yitagesu K Areda
 
 
 def new_in_list(my_list, idx, element):
