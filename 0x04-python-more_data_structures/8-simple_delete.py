@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # File : 8-simple_delete.py
 # Simple delete by key
-#Auth : Yitagesu K Areda
+# Auth : Yitagesu K Areda
 
 
 def simple_delete(a_dictionary, key=""):
