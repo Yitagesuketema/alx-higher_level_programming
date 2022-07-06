@@ -20,7 +20,6 @@ def roman_to_int(roman_string):
             "M": 1000
     }
     num = 0
-
     for i in range(len(roman_string)):
         if roman_dict.get(roman_string[i], 0) == 0:
             return (0)
