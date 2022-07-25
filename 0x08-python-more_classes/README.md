@@ -3,7 +3,6 @@
 In thi I learned more  learned about class methods, static methods, class vs instance attributes, and
 how to use the special `__str__` and `__repr__` methods.
 
-## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by ALX School.
 
