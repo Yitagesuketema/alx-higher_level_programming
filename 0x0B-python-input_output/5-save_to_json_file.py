@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 7-save_to_json_file.py
+# 5-save_to_json_file.py
 # Yitagesu K Areda
 """Defines a JSON file-writing function."""
 import json

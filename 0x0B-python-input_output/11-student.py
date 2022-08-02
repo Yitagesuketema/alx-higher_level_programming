@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 13-student.py
+# 11-student.py
 # Yitagesu K Areda
 """Defines a class Student."""
 

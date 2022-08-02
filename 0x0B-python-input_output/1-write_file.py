@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 3-write_file.py
+# 1-write_file.py
 # Yitagesu K Areda
 """Defines a file-writing function."""
 
