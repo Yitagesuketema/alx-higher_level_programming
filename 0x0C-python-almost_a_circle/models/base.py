@@ -1,13 +1,22 @@
-#!/usr/bin/python3
-""" Define a class base """
+class Base:
+    """Represent the base model.
 
+    Represents the "base" for all other classes in project 0x0C*.
 
-class base:
+    Attributes:
+        __nb_objects (int): The number of instantiated Bases.
+    """
+
     __nb_objects = 0
-    """define constructor function"""
 
     def __init__(self, id=None):
-        if (id is not None):
-            id = self.__nb_objects
+        """Initialize a new Base.
+
+        Args:
+            id (int): The identity of the new Base.
+        """
+        if id is not None:
+            self.id = id
         else:
-            self.__nb_objects += 1
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
