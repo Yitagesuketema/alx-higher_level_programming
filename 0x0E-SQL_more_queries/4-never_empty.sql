@@ -1,0 +1,4 @@
+-- creates the table id_not_null on  MySQL server if not exists
+-- id INT default value 1
+--name VARCHAR(256)
+CREATE TABLE IF NOT EXISTS (id INT DEFAULT 1, name VARCHAR(256));
