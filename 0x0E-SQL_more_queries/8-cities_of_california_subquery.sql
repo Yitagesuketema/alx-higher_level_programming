@@ -1,7 +1,12 @@
--- lists all the cities of California that can be found
--- in the database hbtn_0d_usa ,
--- sorted in ascending order by cities.id.
-
-SELECT * FROM hbtn_0d_usa.cities
-WHERE name = California ORDER BY cities.id
-ASC;
+-- List all cities of CA that can be found in db 'hbtn_0d_usa'
+-- 'states' table contains only one record where 'name = California'
+-- but 'id' cant be different
+-- Results must be sorted in ascending order by 'cities.id'
+-- Not allowed to use JOIN keyword
+SELECT id, name
+FROM cities
+WHERE state_id = (
+      SELECT id
+      FROM states
+      WHERE name = 'California'
+);
