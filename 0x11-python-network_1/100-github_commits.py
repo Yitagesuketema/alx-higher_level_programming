@@ -2,7 +2,6 @@
 """api thing"""
 import sys
 import requests
-
 def apidata():
     """apidata"""
     url = "https://api.github.com/repos/{}/{}/commits".format(sys.argv[2],
@@ -15,6 +14,5 @@ def apidata():
                                   d[i]["commit"]["author"]["name"]))
     except IndexError:
         pass
-
 if __name__ == "__main__":
     apidata()
